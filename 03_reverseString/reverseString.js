@@ -5,6 +5,8 @@ const reverseString = function(stringToReverse) {
     for (let char of stringArray) {
         reversedString = char + reversedString;
     }
+
+    return reversedString;
 };
 
 // Do not edit below this line
