@@ -4,6 +4,8 @@ const repeatString = function(stringToRepeat, repetitions) {
     for (let i = 0; i < repetitions; i++) {
         repeatedString += stringToRepeat;
     }
+
+    return repeatedString;
 };
 
 // Do not edit below this line
