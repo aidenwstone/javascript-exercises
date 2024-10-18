@@ -3,7 +3,7 @@ const removeFromArray = function(array) {
         
     }
 
-    return newArray;
+    return array;
 };
 
 // Do not edit below this line
