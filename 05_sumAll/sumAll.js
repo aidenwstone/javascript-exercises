@@ -2,9 +2,11 @@ const sumAll = function(num1, num2) {
     let sum = num1;
 
     let currNum = num1;
-    for (let num = startInt; num <= endInt; num++) {
-        sum += num;
+    do {
+        num1 > num2 ? currNum-- : currNum++;
+        sum += currNum;
     }
+    while (currNum != num2);
 
     return sum;
 };
