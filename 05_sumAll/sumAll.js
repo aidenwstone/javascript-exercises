@@ -4,6 +4,8 @@ const sumAll = function(startInt, endInt) {
     for (let num = startInt; num <= endInt; num++) {
         sum += num;
     }
+
+    return sum;
 };
 
 // Do not edit below this line
