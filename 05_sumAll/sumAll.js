@@ -1,6 +1,10 @@
 const sumAll = function(num1, num2) {
     let sum = num1;
 
+    if (num1 < 0 || num2 < 0) {
+        return "ERROR";
+    }
+
     let currNum = num1;
     do {
         num1 > num2 ? currNum-- : currNum++;
