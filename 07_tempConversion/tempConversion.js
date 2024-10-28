@@ -6,6 +6,7 @@ const convertToCelsius = function(tempFahrenheit) {
 };
 
 const convertToFahrenheit = function(tempCelsius) {
+  let tempFahrenheit = ((tempCelsius * (5/9) + 32));
 };
 
 // Do not edit below this line
