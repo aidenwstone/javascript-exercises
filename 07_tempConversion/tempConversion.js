@@ -5,7 +5,7 @@ const convertToCelsius = function(tempFahrenheit) {
   return tempCelsius;
 };
 
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(tempCelsius) {
 };
 
 // Do not edit below this line
