@@ -1,8 +1,11 @@
 const palindromes = function (str) {
     let result = true;
 
-    for (let i = 0; i <= str.length / 2; i++) {
-        if (str[i] != str[str.length - (1 + i)]) {
+    const re = /[^a-z]/g;
+    const newStr = str.replaceAll(re, '');
+
+    for (let i = 0; i <= newStr.length / 2; i++) {
+        if (newStr[i] != newStr[newStr.length - (1 + i)]) {
             result = false;
         }
     }
