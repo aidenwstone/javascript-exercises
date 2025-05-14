@@ -1,7 +1,7 @@
 const palindromes = function (str) {
     let result = true;
 
-    const re = /[^a-z]/g;
+    const re = /[^a-z0-9]/g;
     const newStr = str.toLowerCase().replaceAll(re, '');
 
     for (let i = 0; i <= newStr.length / 2; i++) {
